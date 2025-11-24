@@ -11,3 +11,6 @@ externalPort = 3000
 
 [nix]
 packages = ["docker", "docker-compose", "nodejs-12_x"]
+
+[agent]
+expertMode = true
