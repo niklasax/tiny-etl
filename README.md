@@ -1,5 +1,7 @@
 # Tiny ETL Studio - Complete Architecture Diagram
 
+Clean My Shitty CSV is a web-based data cleaning platform. Users upload messy CSV files, select automated cleaning rules like removing duplicates and handling missing values, and download cleaned data—all with a sleek, modern interface. Built with React, Node.js, and PostgreSQL, it's deployed on Railway and includes workflow automation via n8n.
+
 ## System Architecture Overview
 
 ```mermaid
