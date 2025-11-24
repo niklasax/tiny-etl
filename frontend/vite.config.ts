@@ -7,6 +7,11 @@ export default defineConfig({
     host: '0.0.0.0',
     port: 5173,
     strictPort: false,
+    allowedHosts: [
+      'frontend-service-production-fa7d.up.railway.app',
+      '.railway.app',
+      '.replit.dev'
+    ],
     hmr: {
       clientPort: 443
     }
@@ -14,6 +19,11 @@ export default defineConfig({
   preview: {
     host: '0.0.0.0',
     port: 5173,
-    strictPort: false
+    strictPort: false,
+    allowedHosts: [
+      'frontend-service-production-fa7d.up.railway.app',
+      '.railway.app',
+      '.replit.dev'
+    ]
   }
 })
