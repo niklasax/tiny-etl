@@ -1,5 +1,5 @@
-// Use Replit URL
-const API_BASE_URL = window.location.protocol + '//' + window.location.hostname + ':3000/api';
+// Use production backend URL
+const API_BASE_URL = 'https://backend-service-production-53e1.up.railway.app/api';
 
 export interface UploadResponse {
   message: string;
