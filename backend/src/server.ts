@@ -7,8 +7,16 @@ import { initDatabase } from './services/initDatabase';
 const app: Express = express();
 const PORT = 3000;
 
-// Middleware
-app.use(cors());
+// Middleware - Allow Railway frontend domain
+app.use(cors({
+  origin: [
+    'https://frontend-service-production-fa7d.up.railway.app',
+    'http://localhost:5173',
+    /\.railway\.app$/,
+    /\.replit\.dev$/
+  ],
+  credentials: true
+}));
 app.use(express.json());
 
 // Test route
