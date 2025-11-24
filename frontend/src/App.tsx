@@ -245,7 +245,7 @@ function App() {
             WebkitTextFillColor: 'transparent',
             letterSpacing: '-2px'
           }}>
-            TINY ETL STUDIO
+            CLEAN MY SHITTY CSV
           </h1>
           <p style={{
             fontSize: '20px',
